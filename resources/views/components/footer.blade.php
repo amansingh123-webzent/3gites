@@ -3,17 +3,21 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {{-- Brand --}}
             <div class="lg:col-span-1">
-                <a href="{{ route('home') }}" class="flex items-center gap-0.5">
-                    <div class="w-10 h-10 bg-gold-500 rounded-full flex items-center justify-center mx-auto  shadow-xl">
-                        <span class="font-display font-bold text-purple-950 text-2xl">3G</span>
+                <a href="{{ route('home') }}" class="block">
+                    <div class="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left mb-4">
+                        <div class="w-12 h-12 bg-gold-500 rounded-full flex items-center justify-center shadow-xl flex-shrink-0">
+                            <span class="font-display font-bold text-purple-950 text-2xl">3G</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="font-bold text-white text-base leading-none">3Gites-1975</div>
+                            <div class="text-purple-400 text-sm">Class of 1975</div>
+                        </div>
                     </div>
-                    <div class="tt" style="margin-right: 64px;">
-                        <div class="font-bold text-white text-sm leading-none">3Gites-1975</div>
-                        <div class="text-purple-400 text-xs">Class of 1975</div>
+                    <div class="text-center sm:text-left">
+                        <p class="text-purple-300 text-sm italic font-display leading-relaxed">"Perstare et Praestare"</p>
+                        <p class="text-purple-500 text-xs mt-1">To Persevere and Excel</p>
                     </div>
                 </a>
-                <p class="text-purple-300 text-sm italic font-display mt-3 leading-relaxed">"Perstare et Praestare"</p>
-                <p class="text-purple-500 text-xs mt-0.5">To Persevere and Excel</p>
             </div>
 
             {{-- Links --}}

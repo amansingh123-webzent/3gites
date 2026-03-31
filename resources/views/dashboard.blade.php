@@ -129,7 +129,7 @@
                     <a href="{{ route('members.index') }}" class="flex items-center gap-2 text-slate-600 hover:text-purple-900 text-sm transition-colors py-1">👥 Class Directory</a>
                     <a href="{{ route('gallery.index') }}" class="flex items-center gap-2 text-slate-600 hover:text-purple-900 text-sm transition-colors py-1">🖼️ Photo Gallery</a>
                     <a href="{{ route('polls.index') }}" class="flex items-center gap-2 text-slate-600 hover:text-purple-900 text-sm transition-colors py-1">📊 Class Polls</a>
-                    <a href="{{ route('donate.index') }}" class="flex items-center gap-2 text-slate-600 hover:text-purple-900 text-sm transition-colors py-1">💛 Donate to Reunion</a>
+                    <a href="https://www.zeffy.com/en-US/donation-form/donate-to-3gites--1975" target="_blank" class="flex items-center gap-2 text-slate-600 hover:text-purple-900 text-sm transition-colors py-1">💛 Donate to Reunion</a>
                     <a href="{{ route('store.index') }}" class="flex items-center gap-2 text-slate-600 hover:text-purple-900 text-sm transition-colors py-1">🛍️ Class Store</a>
                 </div>
             </div>
